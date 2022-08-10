@@ -19,7 +19,7 @@ public class Nationalities
 		findElement(By.id("menu_admin_viewAdminModule")).click();
 		findElement(By.id("menu_admin_nationality")).click();
 		findElement(By.id("btnAdd")).click();
-		findElement(By.id("nationality_name")).sendKeys("Mexican89");
+		findElement(By.id("nationality_name")).sendKeys("Indian89");
 		findElement(By.id("btnSave")).click();
 		
 	}

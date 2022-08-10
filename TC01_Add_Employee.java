@@ -26,7 +26,7 @@ public class TC01_Add_Employee
 	@Test
 	public void Book_OneWay_Flight() throws Exception {
 		
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		LoginPage L1 = new LoginPage();
 		L1.LoginPage(driver);
